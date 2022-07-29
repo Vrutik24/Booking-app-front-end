@@ -1,0 +1,106 @@
+.hotelsListContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.hotelsListWrapper
+{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+
+}
+.hotelsListSearch
+{
+    flex: 1;
+    background-color: #f39c12;
+    border-radius: 5px;
+    position: sticky;
+    top: 50px;
+    height: fit-content;
+}
+.hotelsListModal
+{
+    flex: 3;
+}
+.hotelLists
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hotelsListSearch
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.searchDestination
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.label
+{
+    font-weight: 800;
+}
+.searchInput
+{
+    height: 25px;
+    border: none;
+    outline: none;
+}
+.searchDate
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.searchDateInput
+{
+    height: 25px;
+    border: none;
+    outline: none;
+}
+.options
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.optionHeading
+{
+    font-weight: 800;
+}
+.option
+{
+    display: flex;
+    justify-content: space-between;
+}
+.optionName
+{
+    font-weight: 600;
+}
+.optionInput
+{
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 60px;
+}
+.hotelSearchBtn
+{
+    margin-top:20px ;
+    height: 30px;
+    border: none;
+    background-color: #003580;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+.mail
+{
+    background-color:  #003580;
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.searchBar
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.searchBar input
+{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.searchBar button
+{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+}

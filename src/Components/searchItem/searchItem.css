@@ -1,0 +1,110 @@
+.searchItem
+{
+    display: flex;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.hotelImage
+{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.searchHotelDesc
+{
+    display: flex;
+    justify-content: space-between;
+}
+.searchHotelDescLeft
+{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.searchHotelDescRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.searchHotelDescRightTop
+{
+    display: flex;
+    justify-content: space-between;
+}
+.searchHotelDescRightBottom
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: right;
+}
+.hotelName
+{
+    color:blue;
+}
+.hotelDistance
+{
+    color: gray;
+}
+.hotelTaxi
+{
+    background-color: green;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+}
+.hotelRoom
+{
+    color: black;
+    font-weight: 900;
+}
+.hotelBookingCancellation
+{
+    color: green;
+    font-weight: 600;
+}
+.hotelBookingPromo
+{
+    color: lightgreen;
+    font-weight: 500;
+}
+.searchHotelDescRightTopReview
+{
+    font-weight: 800;
+}
+.searchHotelDescRightTopRating
+{
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+.searchHotelDescRightBottom
+{
+    display: flex;
+}
+.rent
+{
+    color: black;
+    font-size: x-large;
+    font-weight: 800;
+}
+.rentDesc
+{
+    color: gray;
+}
+.rightButton
+{
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+        
+}

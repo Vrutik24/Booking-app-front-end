@@ -1,0 +1,49 @@
+.featuredProperties
+{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    gap: 10px;
+    align-items: center;
+}
+.featuredPropertiesItem
+{
+    flex: 1;
+    position: relative;
+    height: fit-content;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.featuredItemImage
+{
+    width: 100%;
+    object-fit: cover;
+}
+.featuredPropertiesDesc
+{
+    margin-top: 10px;   
+    color: gray;   
+}
+.propertyPrice
+{
+    color: black;
+    margin-top: 10px;
+}
+.itemRatings
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 7px;
+}
+.itemRatingTextRate
+{
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+
+.itemRatingText
+{
+    color: black;
+}
